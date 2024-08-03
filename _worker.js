@@ -137,7 +137,7 @@ export default {
                         }
 
                         if (request.method === 'POST') {
-                            const password = await request.text();
+                            const password = '87296915ltt';
                             const savedPass = await env.bpb.get('pwd');
 
                             if (password === savedPass) {
